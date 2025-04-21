@@ -1,0 +1,1 @@
+// Счётчик на нативном node jsconst http = require('http');let counter = 0;const server = http.createServer((req, res) => {    if (req.url === '/') {        counter++;        res.write(`<h1>Hello ${counter}</h1>`);        res.end();    }});server.listen('8000');
