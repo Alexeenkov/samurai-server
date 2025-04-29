@@ -1,0 +1,1 @@
+export const ROUTERS = {    samurai: '/samurai',    testing: '/testing',} as const;
