@@ -1,0 +1,1 @@
+export interface CreateSamuraiModel {    name: string    age: number}

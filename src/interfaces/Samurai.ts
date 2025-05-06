@@ -1,0 +1,1 @@
+export interface ISamurai {    name: string    age: number}export interface ISamuraiWithId extends ISamurai {    id: number}export interface IDataBase {    samurai: ISamuraiWithId[]}

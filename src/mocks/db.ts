@@ -1,1 +1,1 @@
-import {IDataBase} from "../types";export const db: IDataBase = {    samurai: [        {id: 1, name: 'Chi-Cho', age: 23},        {id: 2, name: 'Uagh-jo', age: 34},        {id: 3, name: 'Pli-hui', age: 56},    ],};
+import {IDataBase} from "../interfaces";export const db: IDataBase = {    samurai: [        {id: 1, name: 'Chi-Cho', age: 23},        {id: 2, name: 'Uagh-jo', age: 34},        {id: 3, name: 'Pli-hui', age: 56},    ],};
